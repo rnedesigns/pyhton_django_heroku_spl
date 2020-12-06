@@ -117,4 +117,4 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = "/static/"
 
 # Whitenoise static config goes here
-`STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"`
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
